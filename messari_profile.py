@@ -17,7 +17,7 @@ response = urllib.request.urlopen(req)
 data = json.load(response)["data"]
     
 df = pd.json_normalize(data, sep='_')
-df.to_excel (r'directory\file_name.xlsx', header=True)
+df.to_excel (r'directory\file_name.xlsx', header=True) #specify directory and filename
     
     
     
