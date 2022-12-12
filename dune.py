@@ -35,7 +35,7 @@ df = pd.DataFrame(result_list_clean)
 df = df.set_index('time')
 df = df.sort_index()
 
-df.to_excel (r'directory\filename.xlsx', header=True)
+df.to_excel (r'directory\filename.xlsx', header=True) #specify directory to save file and file name
 
 
 
